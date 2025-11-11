@@ -1,0 +1,66 @@
+# =========================================
+# Compilação e binários
+# =========================================
+build/
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+
+# =========================================
+# Arquivos temporários e caches
+# =========================================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# =========================================
+# Arquivos de editor / IDE
+# =========================================
+.vscode/
+.idea/
+*.code-workspace
+
+# =========================================
+# Arquivos do sistema (Windows / Linux)
+# =========================================
+desktop.ini
+ehthumbs.db
+.nfs*
+
+# =========================================
+# Backups automáticos
+# =========================================
+*~
+
+# =========================================
+# Build tools (CMake / Make)
+# =========================================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+*.ninja
+*.manifest
+
+# =========================================
+# Ambiente virtual ou dependências locais
+# =========================================
+.env/
+.env.local
+.cache/
+
+# =========================================
+# Binários específicos do jogo
+# =========================================
+velocidade_e_ruina
+velocidade_e_ruina.exe
